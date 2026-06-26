@@ -1,0 +1,60 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    color:#2c3e50;
+}
+
+.dashboard{
+    display:flex;
+    justify-content:space-around;
+    margin:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:150px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+.form{
+    display:flex;
+    gap:10px;
+    margin:20px;
+    justify-content:center;
+}
+
+input,select{
+    padding:10px;
+}
+
+button{
+    padding:10px 20px;
+    background:#3498db;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+table{
+    width:100%;
+    background:white;
+    border-collapse:collapse;
+}
+
+th,td{
+    padding:15px;
+    border:1px solid gray;
+    text-align:center;
+}
+
+.delete{
+    background:red;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Assignment Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎓 Smart Assignment Tracker</h1>
+
+<div class="dashboard">
+    <div class="card">
+        <h2 id="total">0</h2>
+        <p>Total</p>
+    </div>
+
+    <div class="card">
+        <h2 id="submitted">0</h2>
+        <p>Submitted</p>
+    </div>
+
+    <div class="card">
+        <h2 id="pending">0</h2>
+        <p>Pending</p>
+    </div>
+
+    <div class="card">
+        <h2 id="late">0</h2>
+        <p>Late</p>
+    </div>
+</div>
+
+<div class="form">
+    <input type="text" id="title" placeholder="Assignment Title">
+
+    <input type="text" id="subject" placeholder="Subject">
+
+    <input type="date" id="date">
+
+    <select id="status">
+        <option>Submitted</option>
+        <option>Pending</option>
+        <option>Late</option>
+    </select>
+
+    <button onclick="addAssignment()">Add</button>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Subject</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody id="tableData">
+    </tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Assignment Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎓 Smart Assignment Tracker</h1>
+
+<div class="dashboard">
+    <div class="card">
+        <h2 id="total">0</h2>
+        <p>Total</p>
+    </div>
+
+    <div class="card">
+        <h2 id="submitted">0</h2>
+        <p>Submitted</p>
+    </div>
+
+    <div class="card">
+        <h2 id="pending">0</h2>
+        <p>Pending</p>
+    </div>
+
+    <div class="card">
+        <h2 id="late">0</h2>
+        <p>Late</p>
+    </div>
+</div>
+
+<div class="form">
+    <input type="text" id="title" placeholder="Assignment Title">
+
+    <input type="text" id="subject" placeholder="Subject">
+
+    <input type="date" id="date">
+
+    <select id="status">
+        <option>Submitted</option>
+        <option>Pending</option>
+        <option>Late</option>
+    </select>
+
+    <button onclick="addAssignment()">Add</button>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Subject</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody id="tableData">
+    </tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
